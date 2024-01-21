@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout - Buy Online Course</title>
+  <!-- Add Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <style>
+    /* Add any additional custom styles here */
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Udemy Checkout</a>
+    </div>
+  </nav>
+
+  <!-- Checkout Form -->
+  <div class="container mt-4">
+    <h2>Checkout - Buy Online Course</h2>
+    <form  id='myform' action="confirmation.html">
+      <div class="form-group">
+        <label for="cardNumber">Card Number</label>
+        <input type="text" class="form-control" id="cardNumber" placeholder="Enter your card number" required>
+      </div>
+      <div class="form-group">
+        <label for="expiryDate">Expiry Date</label>
+        <input type="date" class="form-control" id="expiryDate" placeholder="MM/YY" required>
+      </div>
+      <div class="form-group">
+        <label for="cvv">CVV</label>
+        <input type="text" class="form-control" id="cvv" placeholder="Enter CVV" required>
+      </div>
+      <div class="form-group">
+        <label for="fullName">Full Name on Card</label>
+        <input type="text" class="form-control" id="fullName" placeholder="Enter full name" required>
+      </div>
+     <button type="submit" class="btn btn-primary" id=#myform>Complete Purchase</button>
+    </form>
+  </div>
+
+  <!-- Add Bootstrap JS and Popper.js (if needed) -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
